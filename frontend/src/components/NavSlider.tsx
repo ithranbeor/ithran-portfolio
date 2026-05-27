@@ -129,11 +129,11 @@ export default function NavSlider() {
   }
 
   return (
-    <div className="p-10 fixed bottom-0 left-1 z-30">
+    <div className="fixed bottom-4 left-4 z-30 sm:bottom-6 sm:left-6">
 
       {/* Drag hint */}
       <motion.p
-        className="text-xs text-gray-500/70 text-center mb-2 select-none"
+        className="text-xs text-gray-500/70 text-left mb-2 select-none"
         animate={{ opacity: hintVisible ? 1 : 0 }}
         transition={{ duration: 0.4 }}
       >
@@ -142,7 +142,7 @@ export default function NavSlider() {
 
       <div
         ref={containerRef}
-        className="relative inline-flex items-center space-x-1.5 md:space-x-5 rtl:space-x-reverse bg-white/50 rounded-2xl border border-white/20 px-3 py-2 text-sm font-medium backdrop-blur-md shadow-sm"
+        className="relative inline-flex items-center space-x-1.5 md:space-x-5 rounded-2xl border border-white/20 bg-white/50 px-3 py-2 text-sm font-medium backdrop-blur-md shadow-sm"
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
         onPointerUp={handlePointerUp}

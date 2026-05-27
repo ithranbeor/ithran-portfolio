@@ -28,9 +28,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <AnimatedRoutes />
-      <div className="p-10 fixed bottom-0 left-1 right-1 z-30">
-        <NavSlider />
-      </div>
+      <NavSlider />
     </BrowserRouter>
   );
 }
