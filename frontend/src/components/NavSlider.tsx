@@ -142,7 +142,7 @@ export default function NavSlider() {
 
       <div
         ref={containerRef}
-        className="relative inline-flex items-center space-x-1.5 md:space-x-5 rounded-2xl border border-white/20 bg-white/50 px-3 py-2 text-sm font-medium backdrop-blur-md shadow-sm"
+        className="relative inline-flex items-center space-x-1.5 md:space-x-5 rounded-2xl border border-white/30 bg-white/20 px-3 py-2 text-sm font-medium backdrop-blur-sm shadow-sm"        
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
         onPointerUp={handlePointerUp}
