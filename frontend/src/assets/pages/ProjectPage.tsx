@@ -27,7 +27,7 @@ function ProjectPage() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           >
-            <Carousel className="rounded-lg shadow-lg border border-gray-300 overflow-hidden w-full bg-gray-50 h-56 sm:h-72 md:h-96 lg:h-full">
+            <Carousel className="rounded-lg shadow-lg border border-gray-300 overflow-hidden w-full bg-gray-50 h-56 sm:h-72 md:h-96 lg:h-full ">
               <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" alt="..." />
               <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" alt="..." />
               <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" alt="..." />
